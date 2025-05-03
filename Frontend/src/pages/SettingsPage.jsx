@@ -28,7 +28,7 @@ function SettingsPage() {
           {allThemes.map((e) => (
             <button
               key={e}
-              className={`group flex flex-col items-center gap-1.5 p-2 rounded-lg transition-colors ${
+              className={`group flex flex-col items-center gap-1.5 p-2 rounded-lg transition-colors cursor-pointer ${
                 theme === e ? "bg-base-300" : "hover:bg-base-300"
               }`}
               onClick={() => setTheme(e)}
