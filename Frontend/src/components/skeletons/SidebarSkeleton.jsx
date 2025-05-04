@@ -8,7 +8,7 @@ function SidebarSkeleton() {
         {/* Header */}
         <div className='border-b border-base-300 w-full p-5'>
             <div className='flex items-center gap-2'>
-                <User className='size-6'/>
+                <User className='size-6 mx-auto lg:mx-0'/>
                 <span className='font-medium hidden lg:block'>Contacts</span>
             </div>
         </div>
